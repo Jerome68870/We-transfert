@@ -1,0 +1,92 @@
+body {
+   
+    background : #222;
+    
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position : relative;
+    width  : 740px;
+    height : 498px;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background : #FFF url(../image/background1.jpeg);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h1 {
+    font : 2em 'Dancing Script', monospace;
+    align-self : end;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.one {
+    grid-column: 2;
+    grid-row: 6 / 13;
+    margin: 25px 70px 0px;
+}    
+
+.two {
+    width: 90%;
+    grid-column: 2;
+    grid-row: 7 / 13;
+    margin: 25px 70px 0px;
+}
+
+.three {
+    grid-column: 2;
+    grid-row: 9 / 13;
+    margin: 10px 70px 0px;
+}
+
+.four {
+    width: 90%;
+    grid-column: 2;
+    grid-row: 10 / 13;
+    margin: 10px 70px 0px;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 9 / 13;
+}
+
+.six {
+    grid-column: 1;
+    grid-row: 10 / 13;
+    margin: 10px 0px 0px;
+}
+
+input {
+    width: 80%;
+    background-color:rgba(231, 230, 230, 0.568);
+    border-radius: 4px;
+    font : 15px 'Dancing Script', monospace;
+}
+
+#message {
+    font : 2em 'Dancing Script', monospace;
+    align-self : end;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em;
+}
+
+button {
+    width: 32%;
+    font : 15px 'Dancing Script', monospace;
+    margin: 20px 0px 0px;
+    border-radius: 4px;
+}
+
+
+
