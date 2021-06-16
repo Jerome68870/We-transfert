@@ -1,17 +1,15 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 $name = $_GET['ref'];
-$directory = 'upload/'.$name;
+$directory = '../Public/Upload/'.$name;
 
 
 $files = scandir($directory);
 
-
-dump($directory);
-
 $nb_fichier = 0;
+
 echo '<ul>';
 
 if($dossier = opendir($directory ))
@@ -22,7 +20,7 @@ if($dossier = opendir($directory ))
         {
             $nb_fichier++;
             $chemin = $directory.'/'. $fichier;
-            echo'<li><a href="http://localhost:8080/telechargementFichier.php?ref='.$chemin.'"a>'.$fichier.'</a></li>';
+            echo'<li><a href="http://localhost:8080/Class/TelechargementFichier.php?ref='.$chemin.'"a>'.$fichier.'</a></li>';
             echo '<br>'.$chemin;
         } 
         
