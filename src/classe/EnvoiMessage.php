@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\classe;
 
-use App\Email;
+use App\classe\Email;
 
 class EnvoiMessage 
 {

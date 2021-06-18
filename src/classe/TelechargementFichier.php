@@ -2,12 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\classe;
 
 class TelechargementFichier {
 
     private $fileName;
-
 
     public function __construct($filePath)
     {
@@ -26,8 +25,5 @@ class TelechargementFichier {
 
     }
 }
-
-$telechargementFichier = new TelechargementFichier($_GET['ref']);
-$telechargementFichier->Telechargement();
 
 ?>

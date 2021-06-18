@@ -27,12 +27,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'd3c973efcc448c7f2a56d4d4a9f468fbc953f001',
     'name' => 'jeromeschweitzer/upload',
   ),
   'versions' => 
@@ -57,12 +57,12 @@ private static $installed = array (
     ),
     'jeromeschweitzer/upload' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'd3c973efcc448c7f2a56d4d4a9f468fbc953f001',
     ),
     'swiftmailer/swiftmailer' => 
     array (
